@@ -166,3 +166,49 @@ h4 {
     width: 20px;
     margin-right: 5px;
 }
+
+.story {
+    box-sizing: border-box;
+    margin: 40px;
+}
+
+.story img {
+    width: 20vw;
+    min-width: 230px;
+}
+
+#story1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px;
+    place-items: center;
+    margin-bottom: 55px;
+}
+
+#story2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    place-items: center;
+    margin-bottom: 15px;
+}
+
+.contact {
+    box-sizing: border-box;
+    margin: 40px;
+}
+
+table {
+    font-size: 12px;
+    text-align: right;
+}
+
+td {
+    padding-left: 15px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}

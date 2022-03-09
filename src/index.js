@@ -1,6 +1,7 @@
 import loadStory from './story.js';
 import loadHomepage from './homepage.js';
 import loadHero from './homehero.js';
+import loadContact from './contact.js';
 
 loadHomepage();
 
@@ -15,4 +16,4 @@ var storyLink = document.getElementById("Our Story");
 storyLink.addEventListener("click", () => loadStory());
 
 var contactLink = document.getElementById("Contact Us");
-contactLink.addEventListener("click", () => console.log("clicked contact"));
+contactLink.addEventListener("click", () => loadContact());
