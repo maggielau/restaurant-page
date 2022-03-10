@@ -20,6 +20,7 @@ export default function loadHomepage() {
     content.appendChild(window);
     const br = document.createElement('br');
     content.appendChild(br);
+    
 }
 
 function loadHeader() {

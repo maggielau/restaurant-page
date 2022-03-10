@@ -10,7 +10,7 @@ a {
 
 body {
     background-color: #f6d274;
-    background-image: url("~/src/images/rosemary_small.jpg"), url("~/src/images/garlic_small.jpg");
+    background-image: url("./images/rosemary_small.jpg"), url("./images/garlic_small.jpg");
     background-position: -60px -60px, right -40px bottom -60px;
     background-repeat: no-repeat;
     background-attachment: fixed;
