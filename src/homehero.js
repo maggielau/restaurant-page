@@ -2,6 +2,7 @@ import heroPhoto from './images/herophoto.jpg';
 import farmImg from './images/farm.svg';
 import heartImg from './images/heart.svg';
 import wineImg from './images/wine.svg';
+import loadMenu from './menu.js';
 
 export default function loadHero() {
 
@@ -22,6 +23,7 @@ export default function loadHero() {
         <br>Quality Ingredients,
         <br>Farm to Table</h1>`;
     const heroButton = document.createElement('button');
+    heroButton.setAttribute("id", "heroButton");
     heroButton.innerText = "Explore Menu";
     heroText.appendChild(heroButton);
     hero.appendChild(heroText);
@@ -73,6 +75,9 @@ export default function loadHero() {
     features.appendChild(feature3);
 
     container.appendChild(features);
+
+    var menuButtonLink = document.getElementById("heroButton");
+    menuButtonLink.addEventListener("click", () => loadMenu());
 
 
     return;
