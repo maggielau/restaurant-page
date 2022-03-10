@@ -3,6 +3,7 @@ import loadHomepage from './homepage.js';
 import loadHero from './homehero.js';
 import loadContact from './contact.js';
 import loadMenu from './menu.js';
+import './style.css';
 
 
 loadHomepage();
