@@ -81,6 +81,7 @@ function loadHomeContainer () {
         <br>Quality Ingredients,
         <br>Farm to Table</h1>`;
     const heroButton = document.createElement('button');
+    heroButton.setAttribute("id", "heroButton");
     heroButton.innerText = "Explore Menu";
     heroText.appendChild(heroButton);
     hero.appendChild(heroText);

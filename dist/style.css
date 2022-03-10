@@ -122,7 +122,7 @@ h1 {
 h3 {
     font-size: 22px;
     font-weight: bold;
-    color: rgb(36, 36, 36);
+    color: rgb(100, 100, 100);
 
 }
 
@@ -211,4 +211,29 @@ td {
     display: flex;
     justify-content: center;
     margin: 40px 0px;
+}
+
+.menu {
+    box-sizing: border-box;
+    margin: 40px;
+}
+
+.menuGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.gridElement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.menuGrid img {
+    width: 15vw;
+    min-width: 180px;
+    margin: 15px 0px 10px;
 }

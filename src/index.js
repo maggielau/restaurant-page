@@ -2,6 +2,8 @@ import loadStory from './story.js';
 import loadHomepage from './homepage.js';
 import loadHero from './homehero.js';
 import loadContact from './contact.js';
+import loadMenu from './menu.js';
+
 
 loadHomepage();
 
@@ -10,7 +12,11 @@ var homeLink = document.getElementById("Home");
 homeLink.addEventListener("click", () => loadHero());
 
 var menuLink = document.getElementById("Menu");
-menuLink.addEventListener("click", () => console.log("clicked menu"));
+menuLink.addEventListener("click", () => loadMenu());
+
+var menuButtonLink = document.getElementById("heroButton");
+menuButtonLink.addEventListener("click", () => loadMenu());
+
 
 var storyLink = document.getElementById("Our Story");
 storyLink.addEventListener("click", () => loadStory());
